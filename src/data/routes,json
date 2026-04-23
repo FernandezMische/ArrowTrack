@@ -1,0 +1,97 @@
+{
+  "routes": [
+    {
+      "id": "101",
+      "name": "Route 101: Durbanville → Cape Town",
+      "duration": "75 minutes",
+      "price": "R15.00",
+      "stops": [
+        {
+          "id": "stop_1",
+          "name": "Durbanville Station",
+          "lat": -33.8313,
+          "lng": 18.6469,
+          "times": ["06:00", "07:00", "08:00", "16:00", "17:00"]
+        },
+        {
+          "id": "stop_2",
+          "name": "Bellville Transport Hub",
+          "lat": -33.9064,
+          "lng": 18.6329,
+          "times": ["06:30", "07:30", "08:30", "16:30", "17:30"]
+        },
+        {
+          "id": "stop_3",
+          "name": "Civic Centre, Cape Town",
+          "lat": -33.9249,
+          "lng": 18.4241,
+          "times": ["07:15", "08:15", "09:15", "17:15", "18:15"]
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "name": "Route 205: Mitchells Plain → Cape Town",
+      "duration": "75 minutes",
+      "price": "R15.00",
+      "stops": [
+        {
+          "id": "stop_4",
+          "name": "Mitchells Plain Station",
+          "lat": -34.0536,
+          "lng": 18.6102,
+          "times": ["05:30", "06:30", "07:30", "15:30", "16:30"]
+        },
+        {
+          "id": "stop_5",
+          "name": "Canal Walk Shopping Centre",
+          "lat": -33.8684,
+          "lng": 18.5046,
+          "times": ["06:15", "07:15", "08:15", "16:15", "17:15"]
+        },
+        {
+          "id": "stop_6",
+          "name": "Civic Centre, Cape Town",
+          "lat": -33.9249,
+          "lng": 18.4241,
+          "times": ["06:45", "07:45", "08:45", "16:45", "17:45"]
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Route 108: Khayelitsha → Town",
+      "duration": "60 minutes",
+      "price": "R12.00",
+      "stops": [
+        {
+          "id": "stop_7",
+          "name": "Khayelitsha Station",
+          "lat": -34.0415,
+          "lng": 18.6787,
+          "times": ["05:00", "06:00", "07:00", "15:00", "16:00"]
+        },
+        {
+          "id": "stop_8",
+          "name": "N2 Taxi Rank",
+          "lat": -33.9667,
+          "lng": 18.5833,
+          "times": ["05:45", "06:45", "07:45", "15:45", "16:45"]
+        },
+        {
+          "id": "stop_9",
+          "name": "Civic Centre, Cape Town",
+          "lat": -33.9249,
+          "lng": 18.4241,
+          "times": ["06:30", "07:30", "08:30", "16:30", "17:30"]
+        }
+      ]
+    }
+  ],
+  "clipCards": [
+    {
+      "cardId": "DEMO_CARD_001",
+      "balance": 50.00
+    }
+  ]
+}
